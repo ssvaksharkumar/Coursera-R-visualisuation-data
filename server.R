@@ -1,6 +1,8 @@
 # Load libraries
 library(shiny)
 library(tidyverse)
+library(ggplot2)
+library(gridExtra)
 
 # Read in data
 adult <- read_csv("adult.csv")
